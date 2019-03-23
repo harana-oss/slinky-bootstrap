@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/FormControlFeedback", "FormControlFeedback")
+@JSImport("react-bootstrap/lib/FormControlFeedback", "FormControlFeedback")
 @js.native
 object ReactFormControlFeedback extends js.Object
 

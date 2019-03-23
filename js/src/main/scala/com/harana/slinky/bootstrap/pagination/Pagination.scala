@@ -7,7 +7,7 @@ import slinky.core.facade.ReactElement
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Pagination", "Pagination")
+@JSImport("react-bootstrap/lib/Pagination", "Pagination")
 @js.native
 object ReactPagination extends js.Object
 

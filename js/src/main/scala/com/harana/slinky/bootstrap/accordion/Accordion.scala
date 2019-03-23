@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Accordion", "Accordion")
+@JSImport("react-bootstrap/lib/Accordion", "Accordion")
 @js.native
 object ReactAccordion extends js.Object
 

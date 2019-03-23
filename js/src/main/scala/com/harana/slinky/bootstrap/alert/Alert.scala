@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Alert", "Alert")
+@JSImport("react-bootstrap/lib/Alert", "Alert")
 @js.native
 object ReactAlert extends js.Object
 

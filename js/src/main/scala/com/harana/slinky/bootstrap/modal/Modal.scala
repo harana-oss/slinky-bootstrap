@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Modal", "Modal")
+@JSImport("react-bootstrap/lib/Modal", "Modal")
 @js.native
 object ReactModal extends js.Object
 

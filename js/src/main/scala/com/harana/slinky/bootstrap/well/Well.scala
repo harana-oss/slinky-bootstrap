@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Well", "Well")
+@JSImport("react-bootstrap/lib/Well", "Well")
 @js.native
 object ReactWell extends js.Object
 

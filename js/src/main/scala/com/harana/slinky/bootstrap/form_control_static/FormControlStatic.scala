@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/FormControlStatic", "FormControlStatic")
+@JSImport("react-bootstrap/lib/FormControlStatic", "FormControlStatic")
 @js.native
 object ReactFormControlStatic extends js.Object
 

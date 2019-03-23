@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/PaginationLast", "PaginationLast")
+@JSImport("react-bootstrap/lib/PaginationLast", "PaginationLast")
 @js.native
 object ReactPaginationLast extends js.Object
 

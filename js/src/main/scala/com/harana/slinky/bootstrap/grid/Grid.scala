@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Grid", "Grid")
+@JSImport("react-bootstrap/lib/Grid", "Grid")
 @js.native
 object ReactGrid extends js.Object
 

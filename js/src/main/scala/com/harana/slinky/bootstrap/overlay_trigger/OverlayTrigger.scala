@@ -7,7 +7,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/OverlayTrigger", "OverlayTrigger")
+@JSImport("react-bootstrap/lib/OverlayTrigger", "OverlayTrigger")
 @js.native
 object ReactOverlayTrigger extends js.Object
 

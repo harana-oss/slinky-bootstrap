@@ -7,7 +7,7 @@ import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 import scala.scalajs.js.|
 
-@JSImport("react-bootstrap/Tooltip", "Tooltip")
+@JSImport("react-bootstrap/lib/Tooltip", "Tooltip")
 @js.native
 object ReactTooltip extends js.Object
 

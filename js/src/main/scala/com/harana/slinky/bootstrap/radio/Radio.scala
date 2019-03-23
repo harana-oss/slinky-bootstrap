@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Radio", "Radio")
+@JSImport("react-bootstrap/lib/Radio", "Radio")
 @js.native
 object ReactRadio extends js.Object
 

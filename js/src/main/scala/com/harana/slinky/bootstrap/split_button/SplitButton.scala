@@ -7,7 +7,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/DropdownButton", "DropdownButton")
+@JSImport("react-bootstrap/lib/DropdownButton", "DropdownButton")
 @js.native
 object ReactSplitButton extends js.Object
 

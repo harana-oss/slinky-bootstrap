@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/InputGroup", "InputGroup")
+@JSImport("react-bootstrap/lib/InputGroup", "InputGroup")
 @js.native
 object ReactInputGroup extends js.Object
 

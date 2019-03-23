@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Breadcrumb", "Breadcrumb")
+@JSImport("react-bootstrap/lib/Breadcrumb", "Breadcrumb")
 @js.native
 object ReactBreadcrumb extends js.Object
 

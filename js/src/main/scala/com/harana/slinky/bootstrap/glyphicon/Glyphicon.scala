@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Glyphicon", "Glyphicon")
+@JSImport("react-bootstrap/lib/Glyphicon", "Glyphicon")
 @js.native
 object ReactGlyphicon extends js.Object
 

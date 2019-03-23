@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Row", "Row")
+@JSImport("react-bootstrap/lib/Row", "Row")
 @js.native
 object ReactRow extends js.Object
 

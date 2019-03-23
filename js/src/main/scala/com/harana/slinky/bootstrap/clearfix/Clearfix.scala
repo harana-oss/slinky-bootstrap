@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Clearfix", "Clearfix")
+@JSImport("react-bootstrap/lib/Clearfix", "Clearfix")
 @js.native
 object ReactClearfix extends js.Object
 

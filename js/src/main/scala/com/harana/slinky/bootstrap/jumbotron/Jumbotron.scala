@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/Jumbotron", "Jumbotron")
+@JSImport("react-bootstrap/lib/Jumbotron", "Jumbotron")
 @js.native
 object ReactImage extends js.Object
 

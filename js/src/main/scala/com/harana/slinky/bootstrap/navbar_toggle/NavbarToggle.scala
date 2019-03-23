@@ -7,7 +7,7 @@ import slinky.core.facade.ReactElement
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/NavbarToggle", "NavbarToggle")
+@JSImport("react-bootstrap/lib/NavbarToggle", "NavbarToggle")
 @js.native
 object ReactNavbarToggle extends js.Object
 

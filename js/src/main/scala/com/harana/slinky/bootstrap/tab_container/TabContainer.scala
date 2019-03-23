@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/TabContainer", "TabContainer")
+@JSImport("react-bootstrap/lib/TabContainer", "TabContainer")
 @js.native
 object ReactTabContainer extends js.Object
 

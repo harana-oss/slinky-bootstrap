@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/MediaBody", "MediaBody")
+@JSImport("react-bootstrap/lib/MediaBody", "MediaBody")
 @js.native
 object ReactMediaBody extends js.Object
 

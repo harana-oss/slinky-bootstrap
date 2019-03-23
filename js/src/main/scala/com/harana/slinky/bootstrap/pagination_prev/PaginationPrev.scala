@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/PaginationPrev", "PaginationPrev")
+@JSImport("react-bootstrap/lib/PaginationPrev", "PaginationPrev")
 @js.native
 object ReactPaginationPrev extends js.Object
 

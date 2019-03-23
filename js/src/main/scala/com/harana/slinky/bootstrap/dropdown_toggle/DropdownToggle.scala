@@ -7,7 +7,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/DropdownToggle", "DropdownToggle")
+@JSImport("react-bootstrap/lib/DropdownToggle", "DropdownToggle")
 @js.native
 object ReactDropdownToggle extends js.Object
 

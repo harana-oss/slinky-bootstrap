@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/MenuItem", "MenuItem")
+@JSImport("react-bootstrap/lib/MenuItem", "MenuItem")
 @js.native
 object ReactMenuItem extends js.Object
 

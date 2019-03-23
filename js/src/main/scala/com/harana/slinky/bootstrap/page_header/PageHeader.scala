@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/PageHeader", "PageHeader")
+@JSImport("react-bootstrap/lib/PageHeader", "PageHeader")
 @js.native
 object ReactPageHeader extends js.Object
 

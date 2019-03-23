@@ -7,7 +7,7 @@ import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 import scala.scalajs.js.|
 
-@JSImport("react-bootstrap/DropdownButton", "DropdownButton")
+@JSImport("react-bootstrap/lib/DropdownButton", "DropdownButton")
 @js.native
 object ReactDropdownButton extends js.Object
 
