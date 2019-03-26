@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/Checkbox", "Checkbox")
+@JSImport("react-bootstrap/lib/Checkbox", JSImport.Default)
 @js.native
 object ReactCheckbox extends js.Object
 

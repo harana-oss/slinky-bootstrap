@@ -7,7 +7,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/Carousel", "Carousel")
+@JSImport("react-bootstrap/lib/Carousel", JSImport.Default)
 @js.native
 object ReactCarousel extends js.Object
 

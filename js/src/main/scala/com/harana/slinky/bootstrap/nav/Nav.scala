@@ -7,7 +7,7 @@ import typings.reactLib.reactMod.ReactNs.SyntheticEvent
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/Nav", "Nav")
+@JSImport("react-bootstrap/lib/Nav", JSImport.Default)
 @js.native
 object ReactNav extends js.Object
 

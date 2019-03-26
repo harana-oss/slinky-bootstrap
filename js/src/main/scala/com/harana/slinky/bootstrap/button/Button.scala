@@ -2,11 +2,12 @@ package com.harana.slinky.bootstrap.button
 
 import slinky.core.ExternalComponent
 import slinky.core.annotations.react
+import slinky.core.facade.ReactElement
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/Button", "Button")
+@JSImport("react-bootstrap/lib/Button", JSImport.Default)
 @js.native
 object ReactButton extends js.Object
 

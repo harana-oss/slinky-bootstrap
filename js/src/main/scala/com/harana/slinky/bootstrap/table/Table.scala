@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/Table", "Table")
+@JSImport("react-bootstrap/lib/Table", JSImport.Default)
 @js.native
 object ReactTable extends js.Object
 

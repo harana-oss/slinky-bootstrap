@@ -9,7 +9,7 @@ import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 import scala.scalajs.js.|
 
-@JSImport("react-bootstrap/lib/Nav", "Nav")
+@JSImport("react-bootstrap/lib/Nav", JSImport.Default)
 @js.native
 object ReactNavDropdown extends js.Object
 

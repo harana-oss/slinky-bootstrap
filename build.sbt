@@ -12,7 +12,8 @@ lazy val commonSettings = Seq(
 										"Typed" at "https://dl.bintray.com/oyvindberg/ScalablyTyped"),
   updateOptions := updateOptions.value.withCachedResolution(true),
 	addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full),
-	javacOptions ++= Seq()
+	javacOptions ++= Seq(),
+	//scalacOptions ++= Seq("-Ymacro-debug-lite")
 )
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

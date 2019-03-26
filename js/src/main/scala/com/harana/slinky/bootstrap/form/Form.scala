@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/Form", "Form")
+@JSImport("react-bootstrap/lib/Form", JSImport.Default)
 @js.native
 object ReactForm extends js.Object
 

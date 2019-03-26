@@ -7,7 +7,7 @@ import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 import scala.scalajs.js.|
 
-@JSImport("react-bootstrap/lib/Tabs", "Tabs")
+@JSImport("react-bootstrap/lib/Tabs", JSImport.Default)
 @js.native
 object ReactTabs extends js.Object
 

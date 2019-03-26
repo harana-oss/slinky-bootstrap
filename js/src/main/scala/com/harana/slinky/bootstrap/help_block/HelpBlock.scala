@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/HelpBlock", "HelpBlock")
+@JSImport("react-bootstrap/lib/HelpBlock", JSImport.Default)
 @js.native
 object ReactHelpBlock extends js.Object
 

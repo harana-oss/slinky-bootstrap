@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/Overlay", "Overlay")
+@JSImport("react-bootstrap/lib/Overlay", JSImport.Default)
 @js.native
 object ReactOverlay extends js.Object
 

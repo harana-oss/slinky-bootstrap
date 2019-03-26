@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/MediaRight", "MediaRight")
+@JSImport("react-bootstrap/lib/MediaRight", JSImport.Default)
 @js.native
 object ReactMediaRight extends js.Object
 

@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/Pager", "Pager")
+@JSImport("react-bootstrap/lib/Pager", JSImport.Default)
 @js.native
 object ReactPager extends js.Object
 

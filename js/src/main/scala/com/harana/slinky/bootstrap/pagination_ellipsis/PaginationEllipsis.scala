@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/PaginationEllipsis", "PaginationEllipsis")
+@JSImport("react-bootstrap/lib/PaginationEllipsis", JSImport.Default)
 @js.native
 object ReactPaginationEllipsis extends js.Object
 

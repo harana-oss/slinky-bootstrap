@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/Col", "Col")
+@JSImport("react-bootstrap/lib/Col", JSImport.Default)
 @js.native
 object ReactCol extends js.Object
 

@@ -8,7 +8,7 @@ import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 import scala.scalajs.js.|
 
-@JSImport("react-bootstrap/lib/PanelGroup", "PanelGroup")
+@JSImport("react-bootstrap/lib/PanelGroup", JSImport.Default)
 @js.native
 object ReactPanelGroup extends js.Object
 

@@ -7,7 +7,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/Navbar", "Navbar")
+@JSImport("react-bootstrap/lib/Navbar", JSImport.Default)
 @js.native
 object ReactNavbar extends js.Object
 

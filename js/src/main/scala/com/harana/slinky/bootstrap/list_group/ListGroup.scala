@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/ListGroup", "ListGroup")
+@JSImport("react-bootstrap/lib/ListGroup", JSImport.Default)
 @js.native
 object ReactListGroup extends js.Object
 

@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/Badge", "Badge")
+@JSImport("react-bootstrap/lib/Badge", JSImport.Default)
 @js.native
 object ReactBadge extends js.Object
 

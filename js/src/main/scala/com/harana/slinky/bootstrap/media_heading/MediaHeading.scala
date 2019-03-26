@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/v", "v")
+@JSImport("react-bootstrap/lib/v", JSImport.Default)
 @js.native
 object ReactMediaHeading extends js.Object
 

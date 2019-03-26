@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/ModalTitle", "ModalTitle")
+@JSImport("react-bootstrap/lib/ModalTitle", JSImport.Default)
 @js.native
 object ReactModalTitle extends js.Object
 

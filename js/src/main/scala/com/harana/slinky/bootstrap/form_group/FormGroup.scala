@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/FormGroup", "FormGroup")
+@JSImport("react-bootstrap/lib/FormGroup", JSImport.Default)
 @js.native
 object ReactFormGroup extends js.Object
 

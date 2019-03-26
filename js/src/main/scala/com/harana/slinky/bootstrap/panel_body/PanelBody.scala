@@ -6,7 +6,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/PanelBody", "PanelBody")
+@JSImport("react-bootstrap/lib/PanelBody", JSImport.Default)
 @js.native
 object ReactPanelBody extends js.Object
 

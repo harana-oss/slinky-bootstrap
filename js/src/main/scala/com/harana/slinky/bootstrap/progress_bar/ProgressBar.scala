@@ -7,7 +7,7 @@ import slinky.core.annotations.react
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
-@JSImport("react-bootstrap/lib/ProgressBar", "ProgressBar")
+@JSImport("react-bootstrap/lib/ProgressBar", JSImport.Default)
 @js.native
 object ReactProgressBar extends js.Object
 
