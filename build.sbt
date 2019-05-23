@@ -29,7 +29,7 @@ lazy val js = (project in file("js"))
 		useYarn := true,
 		addCommandAlias("start", ";compile;fastOptJS::startWebpackDevServer;~fastOptJS"),
 		addCommandAlias("stop", "fastOptJS::stopWebpackDevServer"),
-		version in webpack := "4.28.3",
+		version in webpack := "4.29.6",
 		version in startWebpackDevServer := "3.1.4",
 		scalaJSOptimizerOptions in fastOptJS ~= { _.withDisableOptimizer(true) },
 	  scalacOptions += "-P:scalajs:sjsDefinedByDefault",
@@ -37,18 +37,18 @@ lazy val js = (project in file("js"))
 		webpackBundlingMode in fastOptJS := BundlingMode.LibraryOnly(),
 		webpackBundlingMode in fullOptJS := BundlingMode.Application,
 	  libraryDependencies ++= Seq(
-			"me.shadaj"                               %%%   "slinky-core"               					% "0.5.2",
-			"me.shadaj"                               %%%   "slinky-web"               						% "0.5.2",
-			"org.scalablytyped"												%%% 	"csstype"						 									% "2.6.2-522be0",
-			"org.scalablytyped"												%%% 	"react"						 										% "16.8-dt-20190220Z-16f783",
-			"org.scalablytyped"												%%% 	"std"						 											% "3.3-0ec965"
+			"me.shadaj"                               %%%   "slinky-core"               					% "0.6.1",
+			"me.shadaj"                               %%%   "slinky-web"               						% "0.6.1",
+			"org.scalablytyped"												%%% 	"csstype"						 									% "2.6.3-9dec0a",
+			"org.scalablytyped"												%%% 	"react"						 										% "16.8-dt-20190520Z-43357b",
+			"org.scalablytyped"												%%% 	"std"						 											% "3.4-d52857"
 		),
 		dependencyOverrides ++= Seq(
-			"org.scala-js" 															% 	"sbt-scalajs" 												% "0.6.26"
+			"org.scala-js" 															% 	"sbt-scalajs" 												% "0.6.27"
 		),
 	  npmDependencies in Compile ++= Seq(
-			"react"                                   -> "16.7.0",
-			"react-dom"                               -> "16.7.0",
+			"react"                                   -> "16.8.6",
+			"react-dom"                               -> "16.8.6",
 			"react-bootstrap"													-> "0.32.4",
 			"react-bootstrap-typeahead"								-> "3.4.2",
 			"react-router-bootstrap"									-> "0.24.4",
