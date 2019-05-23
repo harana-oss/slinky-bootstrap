@@ -4,7 +4,7 @@ import com.harana.slinky.bootstrap.date_picker.Types.ChangeCallback
 import slinky.core.annotations.react
 import slinky.core.facade.ReactElement
 import slinky.core.{ExternalComponent, StatelessComponent}
-import typings.reactLib.reactMod.ReactNs.FocusEventHandler
+import typings.reactLib.reactMod.FocusEventHandler
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport

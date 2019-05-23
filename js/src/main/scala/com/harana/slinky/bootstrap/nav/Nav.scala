@@ -2,7 +2,7 @@ package com.harana.slinky.bootstrap.nav
 
 import slinky.core.ExternalComponent
 import slinky.core.annotations.react
-import typings.reactLib.reactMod.ReactNs.SyntheticEvent
+import typings.reactLib.reactMod.SyntheticEvent
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
